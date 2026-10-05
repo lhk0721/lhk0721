@@ -26,8 +26,11 @@ AI와 함께 개발을 시작한 세대입니다. 코드는 agent가 쓰고, 저
 
 ## 하는 일
 
-- **RackTracker.** 파워랙에 고정한 global shutter 센서 3대로 free weight 동작을 3D 좌표로
-  기록하고, 세트마다 피드백을 주는 장치입니다. 제품 코드는 비공개이고,
+- **RackTracker.** 파워랙에 고정한 global shutter 센서 3대로 같은 순간을 찍고, 세 방향을
+  삼각측량해 가려진 관절까지 3D 좌표로 복원합니다. 랙을 원점으로 삼은 좌표에서 관절별
+  하중 전이, 수직 저항 무게중심, 모멘트암을 계산해 세트마다 피드백을 줍니다. 연산은 랙
+  옆의 Jetson edge device가 촬영과 동시에 실시간으로 처리하고, 영상은 밖으로 나가지
+  않습니다. 제품 코드는 비공개이고,
   [사업계획서](https://github.com/lhk0721/racktracker-business-plan)는 공개돼 있습니다.
 - **[agent-workflow-kit](https://github.com/lhk0721/agent-workflow-kit).** Claude Code가
   일하는 저장소에 설치하는 agent harness입니다. workflow, Markdown document store,
