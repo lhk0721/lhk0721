@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/-LLM_Researcher-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000" alt="LLM Researcher">
 </p>
 
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-unserori.vercel.app/?username=lhk0721&column=4&no-frame=true&rank=-?" alt="GitHub trophies of lhk0721"></a>
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="./profile/trophy.svg" alt="GitHub trophies of lhk0721"></a>
 
 <p>
   <img height="170" src="./profile/stats.svg" alt="GitHub stats of lhk0721">
@@ -19,10 +19,14 @@
 
 </div>
 
-AI와 함께 개발을 시작한 세대입니다. 코드는 agent가 쓰고, 저는 agent가 지킬 규칙과 문서를
-설계합니다. 그 규칙을 모은 harness가 agent-workflow-kit이고, 제 저장소는 전부 그 위에서
-돌아갑니다. 연구 주제는 두 가지입니다. 카메라로 사람의 움직임을 재는 computer vision과,
-글을 읽고 채점하는 LLM입니다.
+설계와 검증은 제가 하고, 구현은 Claude Code agent가 제가 만든 harness 안에서 합니다. 그
+harness가 agent-workflow-kit입니다. issue, branch, 관리 문서를 한 키로 묶는 workflow,
+Markdown을 document store로 운용하는 context engineering, 규칙을 건너뛴 순간을 잡는
+hook으로 이루어져 있고, 제 저장소는 전부 그 위에서 돌아갑니다.
+
+연구는 두 방향입니다. 다중 카메라 삼각측량으로 관절을 3D 복원하고 운동 역학을 edge
+device에서 실시간으로 계산하는 computer vision, 그리고 한국어 논증문을 읽고 채점하는
+LLM입니다.
 
 ## 하는 일
 
@@ -35,8 +39,10 @@ AI와 함께 개발을 시작한 세대입니다. 코드는 agent가 쓰고, 저
 - **[agent-workflow-kit](https://github.com/lhk0721/agent-workflow-kit).** Claude Code가
   일하는 저장소에 설치하는 agent harness입니다. workflow, Markdown document store,
   backstop hook이 한 벌로 들어갑니다.
-- **[uvc-lab](https://github.com/lhk0721/uvc-lab).** 실물 UVC 카메라를 브라우저에서 보고
-  재는 도구입니다. Jetson 같은 headless 장비에 서버를 띄우고 노트북에서 접속합니다.
+- **[pipeplot](https://pipeplot.pages.dev).** 신경망 pipeline을 three.js로 그린 3D
+  장면입니다. computer vision 추론 pipeline을 tensor 모양 그대로 왼쪽에서 오른쪽으로
+  펼치고, 옆에 convolution 한 층을 input feature map, kernel, output feature map으로
+  보여 줍니다. 코드는 비공개이고, 사이트는 공개입니다.
 - **[slide-studio](https://github.com/lhk0721/slide-studio).** 발표 자료를 React 컴포넌트로
   쓰고 4K PNG로 내보내는 도구입니다.
 - **[한국어 논증문 자동 채점 모델](https://github.com/lhk0721/bajak-model-report).**
@@ -58,8 +64,3 @@ AI와 함께 개발을 시작한 세대입니다. 코드는 agent가 쓰고, 저
   <img src="https://img.shields.io/badge/-Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Jetson">
   <img src="https://img.shields.io/badge/-Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code">
 </p>
-
-강의 실습 저장소: [NVIDIA-DeepLearning](https://github.com/lhk0721/NVIDIA-DeepLearning),
-[NVIDIA-Python](https://github.com/lhk0721/NVIDIA-Python),
-[Digital-Image-Processing](https://github.com/lhk0721/Digital-Image-Processing),
-[VHDL](https://github.com/lhk0721/VHDL).
