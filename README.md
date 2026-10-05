@@ -20,7 +20,7 @@
 </div>
 
 AI와 함께 개발을 시작한 세대입니다. 코드는 agent가 쓰고, 저는 agent가 지킬 규칙과 문서를
-설계합니다. 그 규칙을 모은 것이 agent-workflow-kit이고, 제 저장소는 전부 그 위에서
+설계합니다. 그 규칙을 모은 harness가 agent-workflow-kit이고, 제 저장소는 전부 그 위에서
 돌아갑니다. 연구 주제는 두 가지입니다. 카메라로 사람의 움직임을 재는 computer vision과,
 글을 읽고 채점하는 LLM입니다.
 
@@ -30,8 +30,8 @@ AI와 함께 개발을 시작한 세대입니다. 코드는 agent가 쓰고, 저
   기록하고, 세트마다 피드백을 주는 장치입니다. 제품 코드는 비공개이고,
   [사업계획서](https://github.com/lhk0721/racktracker-business-plan)는 공개돼 있습니다.
 - **[agent-workflow-kit](https://github.com/lhk0721/agent-workflow-kit).** Claude Code가
-  일하는 저장소에 workflow, Markdown document store, backstop hook을 설치하는 kit입니다.
-  제 저장소들이 이 규칙으로 돌아갑니다.
+  일하는 저장소에 설치하는 agent harness입니다. workflow, Markdown document store,
+  backstop hook이 한 벌로 들어갑니다.
 - **[uvc-lab](https://github.com/lhk0721/uvc-lab).** 실물 UVC 카메라를 브라우저에서 보고
   재는 도구입니다. Jetson 같은 headless 장비에 서버를 띄우고 노트북에서 접속합니다.
 - **[slide-studio](https://github.com/lhk0721/slide-studio).** 발표 자료를 React 컴포넌트로
