@@ -35,6 +35,27 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.PAT_1 || secrets.GITHUB_TOKEN }}
 
+      # The trophy project ships no card action with layout options, so its source is
+      # checked out at a pinned commit and profile/render_trophy.ts draws the card.
+      - name: Trophy card source
+        uses: actions/checkout@v4
+        with:
+          repository: ryo-ma/github-profile-trophy
+          ref: e3c89df995e92e67cdd4b2acaab9d974583dc1f7
+          path: .trophy
+
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Trophy card
+        env:
+          GITHUB_TOKEN1: ${{ secrets.PAT_1 || secrets.GITHUB_TOKEN }}
+        run: |
+          cp profile/render_trophy.ts .trophy/
+          cd .trophy
+          deno run --allow-net --allow-env --allow-read --allow-write render_trophy.ts lhk0721 ../profile/trophy.svg
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
