@@ -13,8 +13,8 @@
 <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-unserori.vercel.app/?username=lhk0721&column=4&no-frame=true&rank=-?" alt="GitHub trophies of lhk0721"></a>
 
 <p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=lhk0721&show_icons=true&count_private=true&hide_border=true" alt="GitHub stats of lhk0721">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lhk0721&layout=compact&hide_border=true&langs_count=8" alt="Most used languages of lhk0721">
+  <img height="170" src="./profile/stats.svg" alt="GitHub stats of lhk0721">
+  <img height="170" src="./profile/top-langs.svg" alt="Most used languages of lhk0721">
 </p>
 
 </div>
