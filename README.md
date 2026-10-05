@@ -2,7 +2,13 @@
 
 <h1>이현규 (Lee HyunKyu)</h1>
 
-<p><strong>운동 동작을 computer vision으로 재는 장치를 만들고, agent가 일하는 저장소의 규칙을 씁니다.</strong></p>
+<p><strong>AI 네이티브 개발자이고, computer vision과 LLM을 연구합니다.</strong></p>
+
+<p>
+  <img src="https://img.shields.io/badge/-AI--native_Developer-111111?style=for-the-badge&logo=claude&logoColor=fff" alt="AI-native Developer">
+  <img src="https://img.shields.io/badge/-Computer_Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=fff" alt="Computer Vision">
+  <img src="https://img.shields.io/badge/-LLM_Researcher-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000" alt="LLM Researcher">
+</p>
 
 <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy-unserori.vercel.app/?username=lhk0721&column=4&no-frame=true&rank=-?" alt="GitHub trophies of lhk0721"></a>
 
@@ -12,6 +18,11 @@
 </p>
 
 </div>
+
+AI와 함께 개발을 시작한 세대입니다. 코드는 agent가 쓰고, 저는 agent가 지킬 규칙과 문서를
+설계합니다. 그 규칙을 모은 것이 agent-workflow-kit이고, 제 저장소는 전부 그 위에서
+돌아갑니다. 연구 주제는 두 가지입니다. 카메라로 사람의 움직임을 재는 computer vision과,
+글을 읽고 채점하는 LLM입니다.
 
 ## 하는 일
 
